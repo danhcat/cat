@@ -23,14 +23,14 @@ public class program {
 		Deparment dep1 = new Deparment();
 		dep1.id = 1;
 		dep1.name = "sale";
-		System.out.println("thông tin phòng ban số 1: ");
+		System.out.println("thĂ´ng tin phĂ²ng ban sá»‘ 1: ");
 		System.out.println("ID: " + dep1.id);
 		System.out.println("name: " + dep1.name);
 
 		Deparment dep2 = new Deparment();
 		dep2.id = 2;
 		dep2.name = "mkt";
-		System.out.println("thông tin phòng ban số 2: ");
+		System.out.println("thĂ´ng tin phĂ²ng ban sá»‘ 2: ");
 		System.out.println("ID: " + dep2.id);
 		System.out.println("name: " + dep2.name);
 
@@ -118,7 +118,7 @@ public class program {
 		System.out.println("account: " + g1.accounts[0].id);
 		System.out.println("account: " + g1.accounts[1].id);
 
-		// gán group vào account
+		// gĂ¡n group vĂ o account
 		Group[] accountGroups = new Group[2];
 		accountGroups[0] = g1;
 		accountGroups[1] = g3;
@@ -205,7 +205,7 @@ public class program {
 		q3.TypeID = tq3;
 		q3.CreatorID = acc3;
 		q3.createDate = LocalDate.now();
-		System.out.println("thông tin câu hỏi: ");
+		System.out.println("thĂ´ng tin cĂ¢u há»�i: ");
 		System.out.println("id: " + q1.id + " content: " + q1.content + " CategoryID: " + q1.Categoryid.id + " TypeID: "
 				+ q1.TypeID.typeID + " CreatorID: " + q1.CreatorID.id + " CreateDate: " + q1.createDate);
 
@@ -277,6 +277,8 @@ public class program {
 		eq3.QuestionID = q1;
 		System.out.println("lay ra Examquestion: ");
 		System.out.println("ExamID: " + eq1.ExamID.ExamID + " QuestionID: " + eq1.QuestionID.id);
+		
+		System.out.println("sưa chưa");
 	}
 
 }
