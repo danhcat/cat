@@ -278,7 +278,7 @@ public class program {
 		System.out.println("lay ra Examquestion: ");
 		System.out.println("ExamID: " + eq1.ExamID.ExamID + " QuestionID: " + eq1.QuestionID.id);
 		
-		System.out.println("sưa chưa");
+	
 	}
 
 }
